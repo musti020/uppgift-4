@@ -1,0 +1,75 @@
+/* Bakgrundsfärg och typsnitt */
+body {
+    background-color: #eecc5e;
+    /* Ljus gulaktig färg */
+    font-family: Verdana, sans-serif;
+    /* Ändra alla fonter till Verdana, sans-serif */
+    color: #000000;
+    /* Använd svart text för bättre läsbarhet */
+}
+
+/* Bildstorlek */
+img {
+    width: 200px;
+}
+
+/* Bakgrundsfärger för article och footer */
+article {
+    background-color: #e6f2ff;
+    /* Ljus blåaktig färg för article */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    /* Rundade hörn för bättre utseende */
+}
+
+/* Flexbox layout för att lägga articles i två spalter */
+section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* Lägger till mellanrum mellan de två spalter */
+}
+
+footer {
+    background-color: #d9f0ff;
+    /* En annan ljus färg för footern */
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    /* Rundade hörn för konsekvens */
+}
+
+/* Stil för rubrik */
+h1 {
+    color: #000000;
+    /* Ändra textfärgen till svart för bättre läsbarhet */
+    font-size: 2.1rem;
+}
+
+/* Stil för paragraf */
+p {
+    color: #000000;
+    /* Ändra textfärgen till svart */
+    font-size: 1.5rem;
+    line-height: 1.6;
+    /* Lägg till lite radavstånd för bättre läsbarhet */
+}
+
+/* Anpassning av länkar */
+a {
+    color: #5a5a5a;
+    /* Mörkare färg än bakgrunden, men fortfarande tydlig */
+    text-decoration: none;
+    /* Tar bort understrecket */
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+    /* Lägger till en smidig övergångseffekt */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Understreck kommer fram vid hovring */
+    color: #333333;
+    /* Mörkare färg vid hovring för tydlighet */
+}
